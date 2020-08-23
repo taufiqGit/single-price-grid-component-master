@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-color: lightblue;
+    position: relative;
+}
+.container {
+    max-width: 700px;   
+    height: auto; 
+    margin: 100px auto;
+    font-family: 'Karla', sans-serif;
+    box-shadow: 0 0 6px #aaa;
+}
+.atas {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 35px;
+    height: 250px;
+}
+.atas h2 {
+    font-size: 1.8em;
+    color: hsl(179, 62%, 43%);
+}
+.atas h4 {
+    margin-top: 18px;
+    font-size: 1.2em;
+    color: hsl(71, 73%, 54%);
+}
+.atas p{
+    margin-top: 10px;
+    color: hsl(218, 22%, 67%);
+    font-size: 1.1em;
+    line-height: 1.3em;
+}
+
+.bawah {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+.monthly {
+    background-color: hsl(179, 62%, 43%);
+    width: 350px;
+    height: 300px;
+    padding: 35px;
+    color: #fff;
+    position: relative;
+}
+.monthly h4{
+    font-size: 1.3em;
+}
+.monthly h3{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 3em;
+    display: inline-block;
+}
+.monthly span{
+    position: relative;
+    bottom: 10px;
+    left: 8px;
+    color: hsl(204, 43%, 93%)
+}
+.monthly p{
+    margin-top: 15px;
+}
+.monthly .btn {
+    position: absolute;
+    bottom: 40px;
+    left: 35px;
+    right: 35px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px;
+    background-color: hsl(71, 73%, 54%);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.why-us {
+    background-color: hsl(179, 62%, 60%);
+    width: 350px;
+    height: 300px;
+    padding: 35px;
+    color: #fff;
+}
+.why-us h4{
+    font-size: 1.3em;
+}
+.why-us p{
+    margin-top: 25px;
+    max-width: 200px;
+    line-height: 1.3em;
+}
+
+footer {
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    background-color: lightskyblue;
+    height: 50px;
+    font-family: 'Karla', sans-serif;
+}
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+footer a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+@media screen and (max-width: 700px) {
+    .monthly, .why-us {
+        width: 100%;
+    }
+    .atas {
+        height: 300px;
+    }
+    .container {
+        margin: 100px 20px;
+    }
+}
